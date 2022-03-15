@@ -58,7 +58,7 @@ int main() {
         //
         // Delay for a bit.
         //
-        for(ui32Loop = 0; ui32Loop < 2000000; ui32Loop++)
+        for(ui32Loop = 0; ui32Loop < 1000000; ui32Loop++)
         {
         }
          GPION->DATA |= 0x02;
@@ -67,7 +67,7 @@ int main() {
         //
         // Delay for a bit.
         //
-        for(ui32Loop = 0; ui32Loop < 2000000; ui32Loop++)
+        for(ui32Loop = 0; ui32Loop < 1000000; ui32Loop++)
         {
         }
         //
@@ -79,7 +79,7 @@ int main() {
         //
         // Delay for a bit.
         //
-        for(ui32Loop = 0; ui32Loop < 200000; ui32Loop++)
+        for(ui32Loop = 0; ui32Loop < 100000; ui32Loop++)
         {
         }
                 GPION->DATA &= ~(0x02);
@@ -88,7 +88,7 @@ int main() {
         //
         // Delay for a bit.
         //
-        for(ui32Loop = 0; ui32Loop < 200000; ui32Loop++)
+        for(ui32Loop = 0; ui32Loop < 100000; ui32Loop++)
         {
         }
   }
