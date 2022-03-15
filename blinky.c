@@ -71,7 +71,7 @@ int main() {
         {
         }
         //
-        // Turn off the LED.
+        // Turn off the LED
         //
         GPION->DATA &= ~(0x01);
         //GPIO_PORTN_DATA_R &= ~(0x01);
